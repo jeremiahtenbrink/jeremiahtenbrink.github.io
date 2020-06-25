@@ -26,7 +26,7 @@ The start script will start live-server and node-sass watch with source maps
  set to true.
 
 
-## Compile/Build CSS
+## <img src="./assets/images/css.svg" height="40"> Compile/Build CSS 
 
 ```shell script
 npm run build:css
@@ -35,7 +35,7 @@ npm run build:css
 The build script uses node-sass and postCSS, it compiles the sass files, then
  autoPrefixes and minizes the css file for production. 
  
- ## Compile/Build JS
+ ## <img src="./assets/images/js.svg" height="40"> Compile/Build JS
  
  ```shell script
 npm run build:js
@@ -48,7 +48,7 @@ When refactoring the site to include video content of my projects. I used ES6
 
 ## Author
 
-👤 **Jeremiah Tenbrink**
+<img src="./assets/images/avatar.svg" height="40"> **Jeremiah Tenbrink**
 <p>
   <a href="https://twitter.com/CO_Comp_Nerd" target="_blank">
     <img alt="Twitter: CO_Comp_Nerd" src="https://img.shields.io/twitter/follow/CO_Comp_Nerd.svg?style=social" />
@@ -69,7 +69,7 @@ Currently, looking for developer position in fullstack, backend, or frontend.
     </a>
 
 
-## 📝 License
+## License
 
 Copyright © 2020 [Jeremiah Tenbrink](https://github.com/jeremiahtenbrink).<br />
 This project is [ISC](https://github.com/jeremiahtenbrink/jeremiahtenbrinkhub.io.git/blob/master/LICENSE) licensed.
