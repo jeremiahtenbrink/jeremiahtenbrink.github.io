@@ -9,7 +9,7 @@
 </p>
 
 
-###  ![Website]("./assets/images/seo-and-web.svg")
+###  <img src="./assets/images/seo-and-web.svg"> Home Page
 
 My portfolio site. 
 
