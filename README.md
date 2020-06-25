@@ -9,15 +9,19 @@
 </p>
 
 
-### 🏠 [Homepage](http://tenbrink.dev)
 
-Html5 up template of my current and past projects. 
+<a href="http://tenbrink.dev" target="_blank">
+ <img alt="web page" src="./assets/images/seo-and-web.svg" />
+ <h1>Homepage</h1>
+</a>
+
+My portfolio site. 
 
 ## Install
 
 ```sh
 npm install
-``
+```
 ## Usage
 
 ```sh
@@ -27,6 +31,27 @@ npm run start
 ## Start
 The start script will start live-server and node-sass watch with source maps
  set to true.
+
+
+## Compile/Build CSS
+
+```shell script
+npm run build:css
+```
+
+The build script uses node-sass and postCSS, it compiles the sass files, then
+ autoPrefixes and minizes the css file for production. 
+ 
+ ## Compile/Build JS
+ 
+ ```shell script
+npm run build:js
+```
+
+When refactoring the site to include video content of my projects. I used ES6
+ class syntax and ran into some issues with IOS devices. After some trouble
+  shooting and investigation. I now compile the js files using babel to
+   ensure its backwards compatable. 
 
 ## Author
 
