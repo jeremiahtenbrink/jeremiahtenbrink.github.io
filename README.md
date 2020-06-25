@@ -6,14 +6,13 @@
   <a href="https://github.com/jeremiahtenbrink/jeremiahtenbrinkhub.io.git/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
+</p>
   <a href="https://twitter.com/CO_Comp_Nerd" target="_blank">
     <img alt="Twitter: CO_Comp_Nerd" src="https://img.shields.io/twitter/follow/CO_Comp_Nerd.svg?style=social" />
   </a>
   <a href="https://www.linkedin.com/in/jeremiahtenbrink/" target="_blank">
       <img alt="LinkedIn: JeremiahTenbrink" src="./assets/images/linkedInBadge.svg" />
     </a>
-</p>
-
 
 ### 🏠 [Homepage](http://tenbrink.dev)
 
@@ -46,6 +45,12 @@ The start script will start live-server and node-sass watch with source maps
 ## Show your support
 
 Give a ⭐️ if this project helped you!
+
+
+  <a href="https://drive.google.com/file/d/13dwfRXEcEvPOSFiq_GHCyV5nq6pwahVX/view?usp=sharing" target="_blank">
+      <img alt="Resume: JeremiahTenbrink" src="https://drive.google.com/file/d
+      /13dwfRXEcEvPOSFiq_GHCyV5nq6pwahVX/view?usp=sharing" />
+    </a>
 
 ## 📝 License
 
