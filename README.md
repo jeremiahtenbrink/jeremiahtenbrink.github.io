@@ -11,7 +11,7 @@
 
 
 <a href="http://tenbrink.dev" target="_blank">
- <img alt="web page" src="./assets/images/seo-and-web.svg" />
+ <img alt="web page" src="./assets/images/seo-and-web.svg"  height="25"/>
  <h1>Homepage</h1>
 </a>
 
