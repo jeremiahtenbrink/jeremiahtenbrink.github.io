@@ -9,7 +9,7 @@
 </p>
 
 
-### <img src="./assets/images/seo-and-web.svg" height="40"> Home Page
+### <a href="http://tenbrink.dev"><img src="./assets/images/seo-and-web.svg" height="40"> Home Page</a>
 
 My portfolio site. 
 
