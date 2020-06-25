@@ -7,12 +7,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
 </p>
-  <a href="https://twitter.com/CO_Comp_Nerd" target="_blank">
-    <img alt="Twitter: CO_Comp_Nerd" src="https://img.shields.io/twitter/follow/CO_Comp_Nerd.svg?style=social" />
-  </a>
-  <a href="https://www.linkedin.com/in/jeremiahtenbrink/" target="_blank">
-      <img alt="LinkedIn: JeremiahTenbrink" src="./assets/images/linkedInBadge.svg" />
-    </a>
+
 
 ### 🏠 [Homepage](http://tenbrink.dev)
 
@@ -36,20 +31,25 @@ The start script will start live-server and node-sass watch with source maps
 ## Author
 
 👤 **Jeremiah Tenbrink**
+<p>
+  <a href="https://twitter.com/CO_Comp_Nerd" target="_blank">
+    <img alt="Twitter: CO_Comp_Nerd" src="https://img.shields.io/twitter/follow/CO_Comp_Nerd.svg?style=social" />
+  </a>
+  </p>
+  <p>
+    <a href="https://www.linkedin.com/in/jeremiahtenbrink/" target="_blank">
+        <img alt="LinkedIn: JeremiahTenbrink" src="./assets/images/linkedInBadge.svg" />
+      </a>
+</p>
 
-* Website: [Tenbrink.dev](http://tenbrink.dev)
-* Twitter: [@CO_Comp_Nerd](https://twitter.com/CO_Comp_Nerd)
-* Github: [@jeremiahtenbrink](https://github.com/jeremiahtenbrink)
-* LinkedIn: [@jeremiahtenbrink](https://linkedin.com/in/jeremiahtenbrink)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
+## Resume
+Currently, looking for developer position in fullstack, backend, or frontend. 
 
 
   <a href="https://drive.google.com/file/d/13dwfRXEcEvPOSFiq_GHCyV5nq6pwahVX/view?usp=sharing" target="_blank">
       <img alt="Resume: Jeremiah Tenbrink" src="./assets/images/JeremiahTenbrinkResume.svg" />
     </a>
+
 
 ## 📝 License
 
