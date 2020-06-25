@@ -1,12 +1,9 @@
 
 <h1 align="center">Welcome to Portfolio 👋</h1>
-<p>
+<div>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
-
-  <a href="https://github.com/jeremiahtenbrink/jeremiahtenbrinkhub.io.git/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-</p>
+</div>
 
 
 ### <a href="http://tenbrink.dev"><img src="./assets/images/seo-and-web.svg" height="40"> Home Page</a>
@@ -78,4 +75,5 @@ Copyright © 2020 [Jeremiah Tenbrink](https://github.com/jeremiahtenbrink).<br /
 This project is [ISC](https://github.com/jeremiahtenbrink/jeremiahtenbrinkhub.io.git/blob/master/LICENSE) licensed.
 
 ***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+_This README was generated with ❤️ by [readme-md-generator](https://github
+.com/kefranabg/readme-md-generator)_ and then updated and altered by :thisGuy
