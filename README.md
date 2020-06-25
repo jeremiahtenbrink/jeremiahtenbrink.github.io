@@ -9,7 +9,7 @@
 </p>
 
 
-###  <img src="./assets/images/seo-and-web.svg"> Home Page
+### <img src="./assets/images/seo-and-web.svg" height="40"> Home Page
 
 My portfolio site. 
 
