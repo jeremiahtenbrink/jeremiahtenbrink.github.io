@@ -23,7 +23,7 @@ var settings = {
     // Transition speed (in ms)
     // For timing purposes only. It *must* match the transition speed of
     // ".carousel > article".
-    speed: 3000, width: 0, height: 0, iframeWidth: 0, iframeHeight: 0,
+    speed: 100, width: 0, height: 0, videoWidth: 0, videoHeight: 0,
     
   },
   
@@ -116,7 +116,8 @@ class Carousel{
     this.headingElement = document.getElementById( "main-heading" );
     this.p = document.getElementById( "main-p" );
     this.projectArticle = document.createElement( "article" );
-    this.iframe = document.getElementById( "ifrm" );
+    
+    this.video = document.getElementById( "video" );
     this.nextButton = document.getElementById( "carousel_next" );
     this.prevButton = document.getElementById( "carousel_prev" );
     
@@ -149,7 +150,7 @@ class Carousel{
     this.projectArticle.classList.remove( "visible" );
     
     window.setTimeout( () => {
-      this.projects[ this.pos ].setVisible( this.iframe,
+      this.projects[ this.pos ].setVisible( this.video,
         this.headingElement,
         this.p,
       );
@@ -163,7 +164,7 @@ class Carousel{
     
     if( this.projects.length === 0 ){
       window.setTimeout( () => {
-        project.setVisible( this.iframe, this.headingElement, this.p );
+        project.setVisible( this.video, this.headingElement, this.p );
       }, settings.carousel.speed );
     }
     this.projects.push( project );
@@ -188,7 +189,7 @@ class Project{
     this.setLiItems = this.setLiItems.bind( this );
   }
   
-  setVisible( iframe, headingElement, p ){
+  setVisible( video, headingElement, p ){
     
     const width = Math.max( document.documentElement.clientWidth,
       window.innerWidth || 0,
@@ -196,16 +197,22 @@ class Project{
     const height = Math.max( document.documentElement.clientHeight,
       window.innerHeight || 0,
     );
-    
     if( width !== settings.carousel.width || height !==
       settings.carousel.height ){
       this.setWidthAndHeight( height, width );
     }
+    debugger
+    video.pause();
+    video.firstElementChild.setAttribute( "src", this.videoUrl );
     
-    iframe.src = this.videoUrl;
-    iframe.width = settings.carousel.iframeWidth;
-    iframe.height = settings.carousel.iframeHeight;
+    video.width = settings.carousel.videoWidth;
+    video.height = settings.carousel.videoHeight;
     headingElement.textContent = this.title;
+    
+    if( video.paused ){
+      video.load();
+      video.play();
+    }
     p.textContent = this.content;
     this.setLiItems();
     this.articles.forEach( ( article ) => {
@@ -234,16 +241,16 @@ class Project{
   }
   
   setWidthAndHeight( height, width ){
-    
+    debugger;
     if( width > 1000 && height > 500 ){
-      settings.carousel.iframeWidth = 560 * 1.25;
-      settings.carousel.iframeHeight = 350 * 1.25;
+      settings.carousel.videoWidth = 560 * 1.25;
+      settings.carousel.videoHeight = 350 * 1.25;
     }else if( width > 700 && height > 400 ){
-      settings.carousel.iframeWidth = 560;
-      settings.carousel.iframeHeight = 350;
+      settings.carousel.videoWidth = 560;
+      settings.carousel.videoHeight = 350;
     }else{
-      settings.carousel.iframeWidth = 560 * .5;
-      settings.carousel.iframeHeight = 350 * .5;
+      settings.carousel.videoWidth = 560 * .5;
+      settings.carousel.videoHeight = 350 * .5;
     }
   };
 }
@@ -321,7 +328,7 @@ const voluntier = new Project( "VolunTier",
     2,
   ),
   ],
-  "https://www.youtube.com/embed/Z6lRqZpKSMU?rel=0;&amp;mute=1",
+  "./assets/videos/VolunTier.mp4",
   "https://voluntier-platform.netlify.com/login",
   "https://github.com/Lambda-School-Labs/volunteer-platform-fe",
   [
@@ -366,7 +373,7 @@ const pmDashboard = new Project( "PM Dashboard",
     2,
   ),
   ],
-  "https://www.youtube.com/embed/JLlfabvf0h8?rel=0;&amp;autoplay=1&amp;mute=1",
+  "./assets/videos/pmDashboard.mp4",
   "https://pm-dashboard-ls.netlify.com/start",
   "https://github.com/jeremiahtenbrink/web20",
 );
@@ -400,7 +407,7 @@ const studentDashboard = new Project( "Student Dashboard",
     2,
   ),
   ],
-  "https://www.youtube.com/embed/TwY_q5fxTEE?rel=0;&amp;autoplay=1&amp;mute=1",
+  "./assets/videos/studentDashboard.mp4",
   "https://ls-student-dashboard.netlify.com",
   "https://github.com/jeremiahtenbrink/student-dashboard",
 );

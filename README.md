@@ -71,9 +71,10 @@ Currently, looking for developer position in fullstack, backend, or frontend.
 
 ## License
 
-Copyright © 2020 [Jeremiah Tenbrink](https://github.com/jeremiahtenbrink).<br />
+Copyright © 2020 [Jeremiah Tenbrink](https://github.com/jeremiahtenbrink)
 This project is [ISC](https://github.com/jeremiahtenbrink/jeremiahtenbrinkhub.io.git/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github
-.com/kefranabg/readme-md-generator)_ and then updated and altered by :thisGuy
+.com/kefranabg/readme-md-generator) and then updated and altered by
+ [Jeremiah Tenbrink](https://github.com/jeremiahtenbrink)
